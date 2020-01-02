@@ -1,0 +1,21 @@
+vi:
+  static_pages:
+    home:
+      title: "Ứng dụng mẫu"
+      content: "Đây là trang chủ cho ứng dụng mẫu %{link}."
+      link1: "Ruby on Rails Tutorial"
+    about:
+      title: "Chi tiết"
+      content: "%{link_1} là một cuốn %{link_2} và %{link_3} để phát triển và dạy web với %{link_4}. Đây là ứng dụng mẫu để hứng dẫn."
+      link1: "Ruby on Rails Tutorial"
+      link2: "sách"
+      link3: "screencast series"
+      link4: "Ruby on Rails"
+    help:
+      title: "Giúp đỡ"
+      content: "Nhận sự trợ giúp trên Ruby on Rails Tutorial ở phần  %{link_1}. Để được trợ giúp về ứng dụng mẫu này,vui lòng xem cuốn Ruby on Rails Tutorial %{link_2}."
+      link1: "Rails Tutorial help"
+      link2: "Ruby on Rails Tutorial"
+    title: "|Ứng dụng mẫu Ruby on Rails Tutorial"
+  english: Tiếng Anh
+  vietnam: Việt Nam
