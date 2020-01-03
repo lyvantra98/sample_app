@@ -1,0 +1,6 @@
+<% provide :title, t(".title") %>
+
+<h1><%= t ".title" %></h1>
+<p>
+  <%= t(".content",link: link_to(t(".link1"),Settings.railstutorial)).html_safe %>
+</p>
