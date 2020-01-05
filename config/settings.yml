@@ -5,3 +5,7 @@ RubyonRails: "http://rubyonrails.org/"
 RailsTutorialhelp: "https://www.railstutorial.org/help"
 RailsAuthor: "https://www.michaelhartl.com/"
 RailsContact: "https://www.railstutorial.org/contact"
+max_email: 255
+max_name: 50
+min_pass: 6
+email_regex: !ruby.regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
