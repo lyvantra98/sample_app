@@ -1,9 +1,30 @@
 vi:
+  layouts:
+    header:
+      title_home: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      content: "Hướng dẫn về %{link_home} của %{link_author}"
+      link1: "Ruby on Rails"
+      link2: "Michael Hartl"
+      about: "Chi tiết"
+      contact: "Liên hệ"
+      news: "Tin tức"
+  users:
+    new:
+      title: "Đăng kí"
+      content: "Đây sẽ là một trang đăng ký cho người dùng mới."
   static_pages:
+    title: " Ứng dụng mẫu Ruby on Rails Tutorial"
     home:
       title: "Ứng dụng mẫu"
       content: "Đây là trang chủ cho ứng dụng mẫu %{link}."
       link1: "Ruby on Rails Tutorial"
+      sign_up: "Đăng kí ngay!"
+      link_img: "rails.png"
+      alt_logo: "Rails logo"
     about:
       title: "Chi tiết"
       content: "%{link_1} là một cuốn %{link_2} và %{link_3} để phát triển và dạy web với %{link_4}. Đây là ứng dụng mẫu để hứng dẫn."
@@ -13,9 +34,12 @@ vi:
       link4: "Ruby on Rails"
     help:
       title: "Giúp đỡ"
-      content: "Nhận sự trợ giúp trên Ruby on Rails Tutorial ở phần  %{link_1}. Để được trợ giúp về ứng dụng mẫu này,vui lòng xem cuốn Ruby on Rails Tutorial %{link_2}."
+      content: "Nhận sự trợ giúp trên Ruby on Rails Tutorial ở phần %{link_1}. Để được trợ giúp về ứng dụng mẫu này,vui lòng xem cuốn Ruby on Rails Tutorial %{link_2}."
       link1: "Rails Tutorial help"
       link2: "Ruby on Rails Tutorial"
-    title: "Ứng dụng mẫu Ruby on Rails Tutorial"
+    contact:
+      title: "Liên hệ"
+      content: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại %{link}."
+      link_page: "trang liên hệ"
   english: Tiếng Anh
   vietnam: Việt Nam
