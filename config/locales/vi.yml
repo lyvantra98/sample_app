@@ -16,6 +16,6 @@ vi:
       content: "Nhận sự trợ giúp trên Ruby on Rails Tutorial ở phần  %{link_1}. Để được trợ giúp về ứng dụng mẫu này,vui lòng xem cuốn Ruby on Rails Tutorial %{link_2}."
       link1: "Rails Tutorial help"
       link2: "Ruby on Rails Tutorial"
-    title: "|Ứng dụng mẫu Ruby on Rails Tutorial"
+    title: "Ứng dụng mẫu Ruby on Rails Tutorial"
   english: Tiếng Anh
   vietnam: Việt Nam
