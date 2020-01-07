@@ -1,9 +1,30 @@
 en:
+  layouts:
+    header:
+      title_home: "Sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      content: "The %{link_home} by %{link_author}"
+      link1: "Ruby on Rails Tutorial"
+      link2: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+  users:
+    new:
+      title: "Sign up"
+      content: "This will be a signup page for new users."
   static_pages:
+    title: " Ruby on Rails Tutorial Sample App"
     home:
       title: "Sample App"
       content: "This is the home page for %{link} sample application."
       link1: "Ruby on Rails Tutorial"
+      sign_up: "Sign up now!"
+      link_img: "rails.png"
+      alt_logo: "Rails logo"
     about:
       title: "About"
       content: "The %{link_1} is a %{link_2} and %{link_3} to teach web development with %{link_4}. This is the sample application for the tutorial."
@@ -16,6 +37,9 @@ en:
       content: "Get help on the Ruby on Rails Tutorial at the %{link_1}. To get help on this sample app, see the %{link_2}."
       link1: "Rails Tutorial help section"
       link2: "Ruby on Rails Tutorial book"
-    title: "Ruby on Rails Tutorial Sample App"
+    contact:
+      title: "Contact"
+      content: "Contact the Ruby on Rails Tutorial about the sample app at the %{link}."
+      link_page: "contact page"
   english: "English"
   vietnam: "Vietnamese"

@@ -1,0 +1,12 @@
+<footer class="footer">
+  <small>
+    <%= t(".content",link_home: link_to(t(".link1"), Settings.railstutorial),link_author: link_to(t(".link2"), Settings.RailsAuthor)).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.railstutorial %></li>
+    </ul>
+  </nav>
+</footer>
