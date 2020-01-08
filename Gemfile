@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.6.5"
 
+gem "figaro"
 gem "bootstrap-sass", "3.4.1"
 gem "rails", "~> 6.0.2", ">= 6.0.2.1"
 gem "bcrypt", "3.1.12"
@@ -33,4 +34,6 @@ group :test do
   gem "capybara", ">= 2.15"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "minitest-reporters"
+  gem "rails-controller-testing"
 end
