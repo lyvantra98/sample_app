@@ -5,6 +5,7 @@ ruby "2.6.5"
 
 gem "bootstrap-sass", "3.4.1"
 gem "rails", "~> 6.0.2", ">= 6.0.2.1"
+gem "bcrypt", "3.1.12"
 gem "sqlite3", "~> 1.4"
 gem "puma", "~> 4.1"
 gem "sass-rails", ">= 6"
@@ -33,5 +34,3 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
-
