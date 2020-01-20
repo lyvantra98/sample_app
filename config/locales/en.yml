@@ -1,4 +1,14 @@
 en:
+  helpers:
+    label:
+      user:
+        name: "Name"
+        password: "Password"
+        email: "Email"
+        password_confirmation: "Confirm"
+  shared:
+    error_messages:
+      content: "The form contains %{message} error"
   layouts:
     header:
       title_home: "Sample app"
@@ -16,6 +26,12 @@ en:
     new:
       title: "Sign up"
       content: "This will be a signup page for new users."
+      name_btn: "Create my account"
+    create:
+      success_create: "Welcome to the Sample App!"
+      failure_create: "User was not saved."
+    show:
+      fail_show: "not found"
   static_pages:
     title: " Ruby on Rails Tutorial Sample App"
     home:
